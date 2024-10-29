@@ -1,8 +1,14 @@
 import Image from "./Image.js"
+import NavigationBar from "./NavigationBar.js"
+import ConnectInfo from "./ConnectInfo"
 
 function App() {
   return(
-    <Image></Image>
+    <>
+      <Image />
+      <NavigationBar />
+      <ConnectInfo />
+    </>
   );
 }
 
