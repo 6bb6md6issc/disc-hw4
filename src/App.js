@@ -1,6 +1,7 @@
 import Image from "./Image.js"
 import NavigationBar from "./NavigationBar.js"
-import ConnectInfo from "./ConnectInfo"
+import ConnectInfo from "./ConnectInfo.js"
+import Footer from "./Footer.js"
 
 function App() {
   return(
@@ -8,6 +9,7 @@ function App() {
       <Image />
       <NavigationBar />
       <ConnectInfo />
+      <Footer />
     </>
   );
 }
