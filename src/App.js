@@ -8,7 +8,8 @@ function App() {
     <>
       <Image />
       <NavigationBar />
-      <ConnectInfo />
+      <ConnectInfo groupName="Purple Cat's Group"/>
+      <ConnectInfo groupName="Wild Cat's Group"/>
       <Footer />
     </>
   );
